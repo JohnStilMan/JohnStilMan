@@ -1,0 +1,130 @@
+import java.math.BigDecimal;
+import java.math.RoundingMode;
+import java.util.Scanner;
+
+/**
+ * @author ™JohnStilMan™
+ */
+
+public class HomeWork {
+
+	public static void main(String[] args) {
+		/*double first;
+		double second;
+		double third;
+		double answer;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Введите первое число:");
+		first = sc.nextDouble();
+		System.out.println("Введите второе число:");
+		second = sc.nextDouble();
+		System.out.println("Введите третье число:");
+		third = sc.nextDouble();
+		System.out.println("Ответ подъехал:");
+		answer = (first + second + third)/3;
+		System.out.println(answer);*/
+		
+		/*double leta;
+		double letb;
+		double letx;
+		Scanner sc1 = new Scanner(System.in);
+		System.out.println("ax+b=0");
+		System.out.println("Введите а:");
+		leta = sc1.nextDouble();
+		System.out.println("Введите b:");
+		letb = sc1.nextDouble();
+		letx = -letb/leta;
+		System.out.println("x = "+letx);*/
+		
+		/*int number;
+		int exponent;
+		int answer;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Число:");
+		number = sc.nextInt();
+		System.out.println("Степень:");
+		exponent = sc.nextInt();
+		answer = (int) Math.pow(number, exponent);
+		System.out.println(number+" в "+exponent+" степени = "+answer);*/
+		
+		/*double radius;
+		double area;
+		double length;
+		final double pi = 3.14;
+		//	S=пR^2        P=2пR
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Введите радиус:");
+		radius = sc.nextDouble();
+		area = pi*Math.pow(radius, 2);
+		length = 2*pi*radius;
+		System.out.println("Ответ:"+"\nS = "+area+"\nP = "+length);*/
+		
+		/*double wmu;
+		double wmz;
+		double wme;
+		float wmr;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Введите гривны");
+		wmu = sc.nextDouble();
+		wmz = wmu*24.95;
+		wme = wmu*27.20;
+		wmr = (float) (wmu*0.35);
+		System.out.println("Доллар = "+wmz+"\nЕвро = "+wme+"\nРубль = "+wmr);*/
+				
+		/*float km;
+		float syxmil;
+		float mormil;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Введите километры");
+		km = sc.nextFloat();
+		syxmil = (float) (km*0.62);
+		mormil = (float) (km*0.54);
+		System.out.println("Ответ:"+"\nМили = "+syxmil+"\nМ.Мили = "+mormil);*/
+		
+		/*float prosent;
+		float prosent1;
+		float prosent2;
+		float symma;
+		float otvet;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Введите процент");
+		prosent = sc.nextFloat();
+		System.out.println("Введите сумму");
+		symma = sc.nextFloat();
+		prosent1 = prosent/100;
+		prosent2 = symma*prosent1;
+		otvet = symma-prosent2;
+		System.out.println("Ответ: "+otvet);*/
+		
+		/*float dlina;
+		final float pi = (float) 3.14; 
+		float diam;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Введи длину:");
+		dlina = sc.nextFloat();
+		diam = dlina/pi;
+		System.out.println(diam);*/
+		
+		//Цельсию в градусы по шкале Фаренгейта, Кельвина, Реомюра и Делиля
+		
+		/*float cels;
+		float fareng;
+		float kelv;
+		float reom;
+		float delil;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Введите °C:");
+		cels = sc.nextFloat();
+		fareng = (float) (cels*33.8);
+		kelv = (float) (cels*274.15);
+		reom = (float) (cels*0.8);
+		delil = (float)(cels*148.5);
+		System.out.println("Ответ:");
+		System.out.println("Фаренгейта: "+fareng);
+		System.out.println("Кельвина: "+kelv);
+		System.out.println("Реомюра: "+reom);
+		System.out.println("Делиля: "+delil);*/
+		
+	}
+
+}
