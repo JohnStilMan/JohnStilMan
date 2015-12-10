@@ -9,6 +9,26 @@ import java.util.Scanner;
 public class HomeWork {
 
 	public static void main(String[] args) {
+		//Это в смом первом дз - девятое
+		/*System.out.println(
+				"Шмонин Иван Иванович\n"+
+				"Дата рождения: 22.07.1998\n"+
+				"E-mail:Shmonin007002@gmail.com\n"+
+				"Телефон: +380930587165 (моб.)\n"+
+				"Одесса, ул. Зеленая, д.1, кв.11\n"+
+				"Образование:\n"+
+				"2004—2009\n"+
+				"Московский Государственный университет им. М. В. Ломоносова,юридический факультет, специальность «Юриспруденция».\n"+
+				"Опыт работы:\n"+
+				"06.2007-08.2007\n"+
+				"Компания «Последняя»\n"+
+				"Должностные обязанности: подготовка дел к суду, оформление документов.\n"+
+				"Приобретен опыт работы в команде\n"+
+				"09.2005-12.2005\n"+
+				"Участник городской Олимпиады по адвокатуре\n"+
+				"Занято 3 место"
+						  );*/
+		
 		/*double first;
 		double second;
 		double third;
@@ -105,7 +125,8 @@ public class HomeWork {
 		diam = dlina/pi;
 		System.out.println(diam);*/
 		
-		//Цельсию в градусы по шкале Фаренгейта, Кельвина, Реомюра и Делиля
+		/*Цельсию в градусы по шкале Фаренгейта, Кельвина, Реомюра и Делиля
+		  9) Задание*/
 		
 		/*float cels;
 		float fareng;
@@ -125,6 +146,47 @@ public class HomeWork {
 		System.out.println("Реомюра: "+reom);
 		System.out.println("Делиля: "+delil);*/
 		
+		/*float cels;
+		float fareng;
+		float kelv;
+		float reom;
+		float delil;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Введите Фаренгейта:");
+		fareng = sc.nextFloat();
+		cels = (float) (fareng*17.22);
+		kelv = (float) (fareng*255.93);
+		reom = (float) (fareng*13.78);
+		delil = (float)(fareng*175.83);
+		System.out.println("Ответ:");
+		System.out.println("°C: "+cels);
+		System.out.println("Кельвина: "+kelv);
+		System.out.println("Реомюра: "+reom);
+		System.out.println("Делиля: "+delil);*/
+		
+		//10)задание
+		
+		/*int a,b;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Напиши а:");
+		a=sc.nextInt();
+		System.out.println("Напиши б:");
+		b=sc.nextInt();
+		a = a + b;
+		b = a - b;
+		a = a - b;
+		System.out.println("a = "+a+" б = "+b);*/
+		
+		/*int a,b,c;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Напиши а:");
+		a=sc.nextInt();
+		System.out.println("Напиши б:");
+		b=sc.nextInt();
+		c = a;
+		a = b;
+		b = c;
+		System.out.println("a = "+a+" б = "+b);*/
 	}
 
 }
