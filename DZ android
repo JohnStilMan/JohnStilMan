@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class HomeWork {
 
 	public static void main(String[] args) {
-		//Это в смом первом дз - девятое
+		//Это в самом первом дз - девятое
 		/*System.out.println(
 				"Шмонин Иван Иванович\n"+
 				"Дата рождения: 22.07.1998\n"+
