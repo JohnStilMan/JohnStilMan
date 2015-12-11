@@ -28,6 +28,8 @@ public class HomeWork {
 		V=S/t;
 		System.out.println("V = "+V+"км/час");*/
 		
+		//2рая
+		
 		/*double a,b;
 		int sum1,sum2;
 		Scanner sc = new Scanner(System.in);
@@ -36,6 +38,15 @@ public class HomeWork {
 		sum1=(int)a+(int)b;
 		sum2=(int) ((a%1*10)+(b%1*10));
 		System.out.println(sum1+" "+sum2);*/
+		
+		//3тяя
+		
+		/*double grn;
+		int begin,end;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("грн:");
+		grn=sc.nextDouble();
+		System.out.println((int)grn+" грн "+(int)(grn%1*10)+" коп");*/
 	}
 
 }
