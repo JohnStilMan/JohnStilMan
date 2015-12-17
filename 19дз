@@ -8,17 +8,17 @@ public class Home {
 
 	public static void main(String[] args) {
 		/*//Задание 1 
-        float S;  //км
-        float v;  //км/час
-        float hour;  //часы
-        float v1; //м/с
-        float min; //минуты
-        float sec; //секунды
+        float S;  
+        float v;  
+        float hour; 
+        float v1; 
+        float min;
+        float sec;
         float a,b,c,d;
         Scanner sc = new Scanner(System.in);
-        System.out.println("Вводим расстояние(км):");
+        System.out.println("Вводим расстояние:");
         S = sc.nextFloat();
-        System.out.println("Вводим скорость(м/сек):");
+        System.out.println("Вводим скорость:");
         v1 = sc.nextFloat();
         v = (v1*60*60)/1000;
         hour = S/v;
