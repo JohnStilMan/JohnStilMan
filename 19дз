@@ -1,0 +1,292 @@
+import java.util.Scanner;
+
+/**
+ * @author ™JohnStilMan™
+ */
+
+public class Home {
+
+	public static void main(String[] args) {
+		/*//Задание 1 
+        float S;  //км
+        float v;  //км/час
+        float hour;  //часы
+        float v1; //м/с
+        float min; //минуты
+        float sec; //секунды
+        float a,b,c,d;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Вводим расстояние(км):");
+        S = sc.nextFloat();
+        System.out.println("Вводим скорость(м/сек):");
+        v1 = sc.nextFloat();
+        v = (v1*60*60)/1000;
+        hour = S/v;
+        b = hour*60;
+        d = b*60;
+        a = hour%1;
+        min = a*60;
+        c = min%1;
+        sec = c*60;           
+        System.out.println("Time:");
+        System.out.println((int)hour+" hour");
+        System.out.println((int)min+" minutes");
+        System.out.println((int)sec+" seconds");*/
+        
+        /*//Задание 2
+        float a,b,c,d,e,f;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("First: ");
+        a = sc.nextFloat();
+        System.out.println("Second: ");
+        b = sc.nextFloat();
+        c = a%1;
+        d = b%1;
+        e = (int)a + (int)b;
+        f = c+d;
+        System.out.println("Сумма целых частей:");
+        System.out.println((int)e);
+        System.out.println("Сумма дробных частей:");
+        System.out.printf("%.3f\n", f);*/
+        
+        /*//Задание 3
+        float a,b,grn,cop;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Вводим сумму в grn:");
+        a = sc.nextFloat();
+        grn = (int)a;
+        b = a%1;
+        cop = b*100;
+        System.out.println("Выводим гривны и копейки:");
+        System.out.println((int)grn+" гривен");
+        System.out.println((int)Math.ceil(cop)+" копеек");*/
+        
+        /*//Задание 4 
+        double vod,a,b,c;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Вводим массу в тоннах:");
+        vod = sc.nextDouble();
+        a = vod;
+        b = vod%1*1000; 
+        c = b%1*1000;
+        System.out.println("Выводим:");
+        System.out.println((int)a+"ton "+(int)b+"kg "+(int)c+"gram ");*/
+             
+        /*//Задание 5
+        double vod;
+        double a,b,c,d,e,f;
+        Scanner sc = new Scanner (System.in);
+        System.out.println("Вводим время в секундах:");
+        vod = sc.nextDouble();
+        a = vod/60;
+        b = a/60;
+        c = b/24;
+        d = c%1*24; 
+        e = d%1*60; 
+        f = e%1*60; 
+        System.out.println((int)c+" Day "+(int)d+" Hour "+(int)e+" minutes "+(int)Math.ceil(f)+" seconds");*/
+       
+        /*//Задание 6
+        float S; //км
+        float v; //км/час
+        float t; //мин
+        float min;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Вводим kilometr:");
+        S = sc.nextFloat();
+        System.out.println("Вводим minutes:");
+        t = sc.nextFloat();
+        min = t/60;
+        v = S / min;
+        System.out.println((int)Math.ceil(v)+" km/hour");*/
+        
+        /*//Задание 7
+        int a,b,c,a1,b1,c1;
+        double x,y,z,d,e,f;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Вводим время начала разговора:");
+        System.out.println("Во сколько часов:");
+        a = sc.nextInt();
+        System.out.println("Во сколько минут:");
+        b = sc.nextInt();
+        System.out.println("Во сколько секунд:");
+        c = sc.nextInt();
+        System.out.println("Вводим время завершения разговора:");
+        System.out.println("Во сколько часов:");
+        a1 = sc.nextInt();
+        System.out.println("Во сколько минут:");
+        b1 = sc.nextInt();
+        System.out.println("Во сколько секунд:");
+        c1 = sc.nextInt();
+        x = (a*3600)+(b*60)+c;
+        y = (a1*3600)+(b1*60)+c1;
+        z = y-x;
+        d = z*0.25;
+        e = d/100;
+        f = e%1*100;
+        System.out.println("Стоимость разговора: ");
+        System.out.println((int)e+" гривен "+(int)f+ " копеек");*/
+        
+        /*//Задание 8
+        int x;
+        double a,b,c,d;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Вводим прошедшее время с начала дня(в секундах):");
+        x = sc.nextInt();
+        a = 28800 - x;
+        b = a/60/60;
+        c = b%1*60;
+        d = c%1*60;
+        System.out.println("Осталось досидеть:");
+        System.out.println((int)b+" часов");
+        System.out.println((int)c+" минут "+(int)d+" секунд ");*/
+        
+        /*//Задание 9
+        float a,b,c,d,e,f,g,h;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Стоимость ноутбука:");
+        a = sc.nextFloat();
+        System.out.println("Сколько ноутбуков:");
+        b = sc.nextFloat();
+        System.out.println("Процент скидки:");
+        c = sc.nextFloat();
+        d = a*b;
+        e = a*c/100;
+        f = a-e;   
+        g = f*b;
+        h = g%1*100;
+        System.out.println("Сумма заказа:");
+        System.out.println((int)g+" грн "+(int)h+" коп");*/
+        
+        /*//Задание 10
+        double x,y,z,a,min,sec,hour;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Вводим размер фильма в гигабайтах:");
+        x = sc.nextDouble();
+        System.out.println("Вводим скорость Интернет-соединения в битах в секунду:");
+        y = sc.nextDouble();
+        a = y*60*60/8/1024/1024;
+        hour = x/a;
+        min = hour%1*60;
+        sec = min%1*60;
+        System.out.println("Фильм скачается за:");
+        System.out.prin.ln((int)hour+" часов "+(int)min+" минуты "+(int)Math.ceil(sec)+" секунды");*/
+        
+        /*//Задание 11
+        float vod,y,z;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Вводим объем флешки в гигабайтах:");
+        vod = sc.nextFloat();
+        y = vod*1024/760;
+        System.out.println("Флешка размером (760) Мб:");
+        System.out.println((int)y);*/
+        
+        /*//Задание 12
+
+        double a,b,c,d,e,f,g,h;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Вводим вещественное число:");
+        a = sc.nextDouble();
+        b = new BigDecimal(a).setscle(3, RoundingMode.HALF_UP).doubleValue();
+        c = b%1*100;
+        d = new BigDecimal(c).setscle(2, RoundingMode.HALF_UP).doubleValue();
+        e = new BigDecimal(d).setscle(0, RoundingMode.HALF_UP).doubleValue();
+        f = (int)b;
+        g = e/100;
+        h = f+g;
+        System.out.println("Округляем его до двух знаков после запятой:");
+        System.out.println(h);*/
+        
+        /*//Задание 13
+        int a,b;
+        float c,d;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Вводим количество студентов, сдавших дз:");
+        a = sc.nextInt();
+        System.out.println("Водим количество «должников»:");
+        b = sc.nextInt();
+        c = a+b;
+        d = b*100/c;
+        System.out.println("Общее число студентов:");
+        System.out.println((int)c);
+        System.out.println("Столько процентов составляют должники:");
+        System.out.printf("%3.1f\n", d);*/
+        
+        /*//Задание 14
+        int vod;
+        float a,b,c,d;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Вводим:");
+        vod = sc.nextInt();
+        a = 86400-vod;
+        b = a/60/60;
+        c = b%1*60;
+        d = c%1*60;
+        System.out.println((int)b+" часа "+(int)c+" минут "+(int)d+" секунд");*/
+        
+        /*//Задание 15 
+        double a,b,c;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Вводим объем одного фильма (гб):");
+        a = sc.nextDouble();
+        b = a*1024;
+        c = b/1.44;
+        System.out.println("Столько понадобится дискет для переноса фильма:");
+        System.out.println((int)Math.ceil(c));*/
+        
+        /*//Задание 16
+        double a,b,c,d,e,f,g;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Вводим в гривнах:");
+        a = sc.nextDouble();
+        System.out.println("Вводим срок вклада в месяцах:");
+        b = sc.nextDouble();
+        System.out.println("Вводим процент ставки за год:");
+        c = sc.nextDouble();
+        d = c/12;
+        e = b*0.83;
+        f = a*e/100;
+        g = a+f;
+        System.out.println("В конце срока у пользователя будет:");
+        System.out.println((int)Math.ceil(g)+" грн");*/
+        
+        /*//Задание 17
+        double Pi = 3.14; final
+        double S;
+        int R;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Вводим радиус Земли: ");
+        R = sc.nextInt();
+        S = 4*Pi*((int)Math.pow(R, 2));
+        System.out.println("Площадь поверхности Земли: ");
+        System.out.println("~ "+(int)S+"  км");*/
+        
+        /*//Задание 18
+        int N;
+        GregorianCalendar gc = new GregorianCalendar();
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Вводим количество дней:");
+        N = sc.nextInt();
+        gc.add(Calendar.DATE, N);
+        System.out.println("Дата будет такая: ");
+        System.out.println(gc.getTime());*/
+        
+        //Задание 19
+        double a,b,c,d,e,f,g;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Количество спортсменов:");
+        a = sc.nextDouble();
+        b = a*2;
+        c = a;  
+        d = a*0.2/0.9;//
+        System.out.println("Если в зале 100% дрищей:");
+        System.out.println("Нужно: "+(int)b+" порций гейнера и "+(int)Math.ceil(d)+" пакетов молока");
+        e = a*60/100;
+        f = a+e;
+        g = e*0.2/0.9;
+        System.out.println("Если в зале 60% дрищей:");
+        System.out.println("Нужно: "+(int)f+" порций гейнера и "+(int)Math.ceil(g)+" пакетов молока");
+			
+		}
+	
+}
