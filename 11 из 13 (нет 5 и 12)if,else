@@ -1,0 +1,241 @@
+import java.util.Scanner;
+
+/**
+ * @author ™JohnStilMan™
+ */
+
+public class Home {
+
+	public static void main(String[] args) {
+
+		/*// Задание 1
+		int a;
+		double b;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Ввод числа: ");
+		a = sc.nextInt();
+		b = a % 2;
+		if (b == 0) {
+			System.out.println("Четное");
+		} else {
+			System.out.println("Не Четное");
+		}*/
+
+		/*// Задание 2
+		int a, b, c;
+		Scanner sc = new Scanner(System.in);
+		System.out.print("a= ");
+		a = sc.nextInt();
+		System.out.print("b= ");
+		b = sc.nextInt();
+		System.out.print("c= ");
+		c = sc.nextInt();
+		if (a < b) {
+			if (a < c) {
+				System.out.println("a= " + a + " Самое мелкое");
+			} else {
+				System.out.println("c= " + c + " Самое мелкое");
+			}
+		} else {
+			if (b < c) {
+				System.out.println("b= " + b + " Самое мелкое");
+			} else {
+				System.out.println(c + " Самое мелкое");
+			}
+		}*/
+		
+		/*//Задание 3
+		int a;
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Введите число:");
+		a=sc.nextInt();
+		if(a==0){
+			System.out.println("Равно 0");
+			}else{
+				if(a<0){
+					System.out.println("Отрицательное");
+				} else {
+					System.out.println("Положительное");
+				}
+		}*/
+		
+		/*//Задание 4
+		double a,b,d;
+		int c;
+		Scanner sc = new Scanner(System.in);
+		System.out.println(
+				"1)a+b\n"+
+				"2)a-b\n"+
+				"3)a*b\n"+
+				"4)a/b\n"+
+				"5)a%b\n");
+		System.out.print("Ваш выбор: ");
+		c = sc.nextInt();
+		System.out.print("a= ");
+		a = sc.nextInt();
+		System.out.print("b= ");
+		b = sc.nextInt();
+		System.out.print("Ответ: ");
+		switch(c){
+		case 1:
+			d=a+b;
+			System.out.println(d);
+			break;
+		case 2:
+			d=a-b;
+			System.out.println(d);
+			break;
+		case 3:
+			d=a*b;
+			System.out.println(d);
+			break;
+		case 4:
+			if(b==0){
+				System.out.println("lol");
+				}else{d=a/b;System.out.println(d);}
+			break;
+		case 5:
+			d=a%b;
+			System.out.println(d);
+			break;
+		default:
+			break;
+				}*/
+		
+		/*//Задание 6
+		int diapn,diapk,number;
+		System.out.println("Ввести диапозон (а-начальны и б-конечный),включительно: ");
+		Scanner sc = new Scanner(System.in);
+		diapn=sc.nextInt();
+		diapk=sc.nextInt();
+		if(diapn<=diapk){
+			System.out.println("Цифру: ");
+			number=sc.nextInt();
+			if(number>=diapn && number<=diapk){
+				System.out.println("Входит в диапозон");
+			} else {System.out.println("не входит в диапозон");}
+		} else {System.out.println("а должно быть меньше б");}*/
+		
+		/*//Задание 7
+		int a,b;
+		double c;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Число а кратно б?");
+		System.out.println("Ввод числа а: ");
+		a = sc.nextInt();
+		System.out.println("Ввод числа б: ");
+		b = sc.nextInt();
+		c = a % b;
+		if (c == 0) {
+			System.out.println("Кратно");
+		} else {
+			System.out.println("Не кратно");
+		}*/
+		
+		/*//Задание 8
+		int a;
+		double b,c,d;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Ввод числа на проверку кратности 3,5,7: ");
+		a = sc.nextInt();
+		b = a % 3;
+		c = a % 5;
+		d = a % 7;
+		if (b == 0 && c == 0 && d == 0) {
+			System.out.println(a+" - Кратное 3,5 и 7");
+		} else {
+			System.out.println(a+" - Не Кратное 3,5 и 7");
+		}*/
+		
+		/*//Задание 9
+		double a;
+		System.out.println();
+		Scanner sc = new Scanner(System.in);
+		a=sc.nextInt();
+		if(a>=0){
+			System.out.println(a);
+		} else {System.out.println(a*-1);}*/
+		
+		/*//Задание 10
+		int a;
+		Scanner sc = new Scanner(System.in);
+		a=sc.nextInt();
+		if(a>=0 && a<=9999){
+			if(a<10){
+				System.out.println("1 число");
+			} else 
+			if(a<100 && a>=10){
+			System.out.println("2 числa");
+			} else 
+			if(a<1000 && a>=100){
+			System.out.println("3 числa");
+			} else 
+			if(a<10000 && a>=1000){
+			System.out.println("4 числa");
+			}	
+			} else {
+			System.out.println("тут больше чем 4 числа");
+		}*/
+		
+		/*//Задание 11
+	    int number,a1,a2,a3,a4,a5;
+	    Scanner sc = new Scanner(System.in);
+	    System.out.println("Является ли число палиндромом?");
+	    number=sc.nextInt();
+	    if(number<=99999 & number>=10000){
+	    a5=number%10;
+	    a4=number%100/10;
+	    a3=number%1000/100;
+	    a2=number%10000/1000;
+	    a1=number%100000/10000;
+	    	if(a1==a5 && a2==a4){
+	    		System.out.println("да");
+	    	} else {
+	    		System.out.println("нет");
+	    	}
+	    }else {System.out.println("Только 5-ти значные!!");}*/
+		
+		/*// Задание 13
+		int a, b, c, d;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Введите a");
+		a = sc.nextInt();
+		System.out.println("Введите b");
+		b = sc.nextInt();
+		System.out.println("Введите c");
+		c = sc.nextInt();
+		System.out.println("Введите d");
+		d = sc.nextInt();
+		if (a > b) {
+			if (a > c) {
+				if (a > d) {
+					System.out.println("a - " + a + " самое большое");
+				} else {
+					System.out.println("d - " + d + " самое большое");
+				}
+			} else {
+				if (c > d) {
+					System.out.println("c - " + c + " самое большое");
+				} else {
+					System.out.println("d - " + d + " самое большое");
+				}
+			}
+		} else {
+			if (b > c) {
+				if (b > d) {
+					System.out.println("b - " + b + " самое большое");
+				} else {
+					System.out.println("d - " + d + " самое большое");
+				}
+			} else {
+				if (c > d) {
+					System.out.println("c - " + c + " самое большое");
+				} else {
+					System.out.println("d - " + d + " самое большое");
+				}
+			}
+		}*/
+		
+	}
+
+}
